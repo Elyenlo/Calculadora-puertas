@@ -3,6 +3,7 @@ import FormularioMedidas from "./components/FormularioMedidas";
 import VistaPuerta from "./components/VistaPuerta";
 import ResumenFinal from "./components/ResumenFinal";
 
+// Este es un cambio para forzar redeploy en Vercel
 export default function App() {
   const [estado, setEstado] = useState({
     anchoVano: 90,
